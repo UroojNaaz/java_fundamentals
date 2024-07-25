@@ -1,7 +1,10 @@
 //In Java, data types define the kind of data that can be stored and manipulated within a program. 
 //Java has two main categories of data types: 
-//1-Primitive Data Types   
-//2-Non-Primitive/Reference Data Types
+//1-Primitive Data Types : byte, short, int, long, float, double, char, boolean  
+//Definition: Primitive data types are the most basic data types in Java. They hold their values directly. They are not objects.
+
+//2-Non-Primitive/Reference Data Types :  Objects, Arrays, Interfaces, Enums
+//Definition: Reference data types refer to objects and arrays. They store references (or addresses) to the actual data. 
 
 public class Datatype {
     public static void main(String[] args) {

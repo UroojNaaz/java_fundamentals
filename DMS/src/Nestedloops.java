@@ -1,5 +1,28 @@
 public class Nestedloops {
     public static void main(String[] args) {
+        
+//-----------------------------------------FOR LOOP (NESTED LOOP)-----------------------------------------------------
+
+//Star Pattern with Nested loop:
+       int n = 4;
+       for (int i = 1; i <= n; i++) {
+           for (int j = 1; j <= i; j++) {
+               System.out.print("*");
+           }
+           System.out.println();    //ln for next line
+       }
+
+
+// Reverse/Inverted Star Pattern with Nested loop:
+       int n = 4; // Number of rows
+       for (int i = n; i >= 1; i--) {
+           for (int j = 1; j <= i; j++) {
+               System.out.print("*");
+           }
+           System.out.println();     //ln for next line
+       }
+
+        
 //----------------------------------------------Nested Loops with 2D Arrays--------------------------------------------------
           
 //EXAMPLE-1 

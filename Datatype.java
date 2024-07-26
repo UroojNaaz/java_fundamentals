@@ -1,3 +1,5 @@
+//-------------------------------------------LECTURE NUMBER - 01-------------------------------------------
+
 //In Java, data types define the kind of data that can be stored and manipulated within a program. 
 //Java has two main categories of data types:  1-Primitive Data Types   2-Non-Primitive/Reference Data Types
 

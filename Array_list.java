@@ -120,15 +120,15 @@ public class Array_list {
         //Names:
         System.out.println("Names (iterator with while loop):");
         Iterator<String> namesIterator = names.iterator();
-        while (namesIterator.hasNext()) {                       //hasNext(): Ye method check karta hai kya next element available hai.
-            System.out.println(namesIterator.next());
-        }
+        while (namesIterator.hasNext()) {                 //hasNext(): Ye method check karta hai kya next element available hai ya nahi,aur agar
+            System.out.println(namesIterator.next());     //available hai to next() method use kiya jata hai element ko access karne ke liye.
+        }                                                 //Return Type of hasNext(): boolean
       
         //Numbers:
         System.out.println("Numbers (iterator with while loop):");
         Iterator<Integer> numbersIterator = numbers.iterator();
         while (numbersIterator.hasNext()) {
-            System.out.println(numbersIterator.next());         //next(): Ye method next element ko return karta hai 
+            System.out.println(numbersIterator.next());   //next(): Ye method next element ko return karta hai aur phir next element ki taraf move karta hai.
         }
 
       

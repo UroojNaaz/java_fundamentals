@@ -1,6 +1,19 @@
 //-----------------------------------------------------Lecture Number - 08-------------------------------------------------------
 
 //----------------------------------------------------------CLASS----------------------------------------------------------------
+/* Class Definition: Java class ek template hai jisse aap objects banate hain. Ek class ek blueprint provide karti hai jo objects  
+   ko define karti hai, unke properties (fields) aur behaviors (methods) ko specify karti hai.  */
+
+/*Class Syntax:
+       public class ClassName {
+            Fields (Attributes)
+            Constructors
+            Methods
+        } */
+
+//Fields (Attributes): Class ke andar variables ko fields kehte hain. Ye objects ke state ya data ko store karte hain.
+//Methods (Behaviors): Methods functions hain jo class ke objects ke behaviors define karte hain.
+//Constructors: Constructor ek special method hai jo class ka object create karte waqt call hota hai. Ye initial setup ke liye use hota hai.
 
 public class Vehicle {
     private String company;       // Brand of the vehicle
@@ -14,7 +27,7 @@ public class Vehicle {
         this.model = model;
         this.year = year;
         this.color = color;
-    }
+    } 
 
     // Getter and Setter methods
     public String getCompany() {

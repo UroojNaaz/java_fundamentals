@@ -1,3 +1,14 @@
+//------------------------------------------------------Interface in OOP------------------------------------------------------
+//Interface abstraction aur polymorphism achieve karne ke liye use hota hai. Interface ke through, aap classes ke behavior ko 
+//define kar sakte hain bina implementation detail provide kiye.
+//Interface-Abstraction:
+//Interface abstraction ko achieve karne mein madad karta hai. Interface sirf methods ke signatures define karta hai, implementation
+//nahi deta. Is se aap implementation details ko hide kar sakte hain aur sirf necessary details expose kar sakte hain.
+//Interface-Polymorphism:
+//Interface ke through polymorphism achieve hota hai. Ek interface ko implement karte hue multiple classes alag-alag tarike se 
+//uske methods ko implement kar sakti hain. Is tarah se aap ek reference variable ko multiple classes ke objects refer karane 
+//ke liye use kar sakte hain.
+
 // Interface declaration
 interface Animal {
     void makeSound(); // abstract method
